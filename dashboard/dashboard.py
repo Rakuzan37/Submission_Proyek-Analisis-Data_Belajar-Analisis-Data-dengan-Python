@@ -9,7 +9,7 @@ st.set_page_config(page_title="Air Quality Analysis Dashboard")
 
 st.title("Air Quality Analysis Dashboard")
 
-data = pd.read_csv("dashboard\main_data.csv")
+data = pd.read_csv("dashboard/main_data.csv")
 
 data["datetime"] = pd.to_datetime(data["datetime"])
 
